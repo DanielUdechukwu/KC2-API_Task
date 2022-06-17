@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
+  <script src="https://kit.fontawesome.com/39e09091cb.js" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 <body>
@@ -25,24 +26,13 @@
   <section>
     <div class="card-section mt-5">
       <div class="container">
-        <div class="row" id="post-holder">
+        <div class="row d-flex justify-content-center" id="post-holder">
           <div class="col-lg-6">
             <div class="card border border-2 rounded-3">
               <div class="card-body py-5 px-4">
-                <h3 id="post-title">Post title</h3>
-                <p id="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti expedita nulla, vel sequi provident tenetur? Quis, assumenda? Quos quaerat eligendi molestiae nobis voluptatum dolorem. Sed ratione impedit ea nostrum.</p>
-  
-                <div class="d-flex justify-content-end" style="gap: 1rem;">
-                  <button class="">
-                    <img src="./images/eye.svg" alt="">
-                  </button>
-                  <button class="">
-                    <img src="./images/refresh.svg" alt="">
-                  </button>
-                  <button>
-                    <img src="./images/delete.svg" alt="">
-                  </button>
-                </div>
+                <h3 id="post-title"></h3>
+                <p id="post-body"></p>
+
                 <p id="post-id">1</p>
               </div>
             </div>
@@ -52,7 +42,34 @@
     </div>
   </section>
 
-
+  <footer>
+    <div class="container py-5 mt-5">
+      <div class="row">
+        <div class="col-lg-10 col-md-8 col-12">
+          <form action="" class="w-100">
+            <div class="pb-4">
+              <div>
+                <p class="mb-2">Subscribe to my newsletter here*</p>
+              </div>
+              <div class="input">
+                <input class="w-50" type="email" placeholder="Enter your mail">
+              </div>
+            </div>
+            <div>
+              <button class="newsBtn">Submit</button>
+            </div>
+          </form>
+        </div>
+  
+        <div class="social col-lg-2 col-md-4 col-12 pt-5">
+          <img class="ps-1" src="../images/twitter.svg" alt="">
+          <img class="ps-1" src="../images/facebook.svg" alt="">
+          <img class="ps-1" src="../images/instagram.svg" alt="">
+          <img class="ps-1" src="../images/medium.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <script src="../js/bootstrap.min.js"></script>
