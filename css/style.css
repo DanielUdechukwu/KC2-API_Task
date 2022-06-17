@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Josefin+Slab:wght@300;400;500;600;700&family=Titillium+Web:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h3,
+label{
+  font-family: 'josefin slab';
+}
+p{
+  font-family: 'Titillium Web';
+}
+button{
+  background: none;
+  border: none
+}
+#post-title{
+  height: 5rem;
+  padding-bottom: 1rem;
+}
+.newsBtn{
+  padding: 1rem 3.5rem;
+  border: 2px solid #59656d;
+}
+.input{
+  width: 100%;
+}
+.input input,
+.modInput,
+.modTextarea{
+
+  background: #f1f1f1 !important;
+  border: none !important;
+  outline: none !important;
+  padding: 1rem 0 1rem 1.5rem !important;
+  
+}

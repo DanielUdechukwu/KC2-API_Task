@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="container d-flex justify-content-between">
+      <div class="py-3">
+        <h1 class="fw-bold">API Blog</h1>
+      </div>
+      <ul class="d-flex align-items-center">
+        <a href="#blog" class="text-decoration-none">
+          <li class="fs-4 link-info" style="list-style: none;">Blog</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="card-section mt-5">
+      <div class="container">
+        <div class="row" id="post-holder">
+          <div class="col-lg-6">
+            <div class="card border border-2 rounded-3">
+              <div class="card-body py-5 px-4">
+                <h3 id="post-title">Post title</h3>
+                <p id="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti expedita nulla, vel sequi provident tenetur? Quis, assumenda? Quos quaerat eligendi molestiae nobis voluptatum dolorem. Sed ratione impedit ea nostrum.</p>
+  
+                <div class="d-flex justify-content-end" style="gap: 1rem;">
+                  <button class="">
+                    <img src="./images/eye.svg" alt="">
+                  </button>
+                  <button class="">
+                    <img src="./images/refresh.svg" alt="">
+                  </button>
+                  <button>
+                    <img src="./images/delete.svg" alt="">
+                  </button>
+                </div>
+                <p id="post-id">1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/update.js"></script>
+</body>
+</html>
