@@ -12,7 +12,7 @@ function getPosts() {
   fetch('https://jsonplaceholder.typicode.com/posts')
   .then((response) => response.json())
   .then((data = data) => {console.log(data)
-    postBox = data.splice(0,16);
+    postBox = data.splice(0,20);
     render(postBox);
 
   })
