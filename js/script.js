@@ -33,9 +33,9 @@ function create(event) {
       body: body.value,
       userId: 2,
     }),
-    // headers: {
-    //   'Content-type': 'application/json; charset=UTF-8',
-    // }
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    }
   })
     .then((response) => response.json())
     .then((data) => { console.log(data)
@@ -58,9 +58,9 @@ function updatePost(id){
     body: body.value,
     userId: 2,
   }),
-  // headers: {
-  //   'Content-type': 'application/json; charset=UTF-8',
-  // },
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
 })
   .then((response) => response.json())
   .then((data) => {
