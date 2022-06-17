@@ -12,7 +12,7 @@ function getPosts() {
   fetch('https://jsonplaceholder.typicode.com/posts')
   .then((response) => response.json())
   .then((data = data) => {console.log(data)
-    postBox = data.splice(0,20);
+    postBox = data.splice(0,16);
     render(postBox);
 
   })
@@ -121,7 +121,7 @@ function render(myArr){
   let postWrapper = " ";
     postBox.forEach(post => {
       postWrapper += `
-      <div class="col-lg-6 col-md-6 pb-4">
+      <div class="col-lg-6 col-md-12 pb-4">
       <div class="card border border-2 rounded-3">
         <div class="card-body py-5 px-4">
           <h3 class="mb-5 fw-bold" id="post-title">${post.title}</h3>

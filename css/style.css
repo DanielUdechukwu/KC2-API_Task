@@ -21,9 +21,9 @@ button{
   height: 5rem;
   padding-bottom: 1rem;
 }
-#post-body{
-  height: 5rem;
-}
+/* #post-body{
+  height: 8rem;
+} */
 .newsBtn{
   padding: 1rem 3.5rem;
   border: 2px solid #59656d;
